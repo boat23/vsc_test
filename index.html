@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="body-div">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+
+    <form action="" id="survey-form">
+
+      <label for="name" id="name-label">Name</label>
+      <br>
+      <input type="text" id="name" placeholder="Enter your Name!" required>
+      <div class="div-space"></div>
+
+      <br>
+
+      <label for="email" id="email-label">Email</label>
+      <br>
+      <input type="email" id="email" placeholder="Enter your Email!" required>
+      <div class="div-space"></div>
+
+      <br>
+
+      <label for="number" id="number-label">Age</label>
+      <br>
+      <input type="number" id="number" placeholder="Enter your Age!" min="12" max="150">
+      <div class="div-space"></div>
+
+      <br>
+
+      <label for="dropdown">Which option best describes your current role?</label>
+      <br>
+      <select name="" id="dropdown">
+        <option value="0">First Option</option>
+        <option value="1">Second Option</option>
+        <option value="2">Third Option</option>
+      </select>
+      <div class="div-space"></div>
+
+      <br>
+
+
+      <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+      <br>
+      <input type="radio" id="Definitely" name="recommend" value="0">
+      <label for="Definitely">Definitely</label><br>
+      <input type="radio" id="Maybe" name="recommend" value="1">
+      <label for="Maybe">Maybe</label><br>
+      <input type="radio" id="Not sure" name="recommend" value="2">
+      <label for="Not sure">Not sure</label>
+      <div class="div-space"></div>
+
+      <br>
+
+      <label for="improved">What would you like to see improved? <span class="small-text">(Check all that
+          apply)</span></label>
+      <br>
+      <input type="checkbox" id="front" name="improved" value="0">
+      <label for="front">Front-end Projects</label><br>
+      <input type="checkbox" id="front" name="improved" value="1">
+      <label for="back">Back-end Projects</label><br>
+      <input type="checkbox" id="front" name="improved" value="2">
+      <label for="data">Data Visualization</label><br>
+      <div class="div-space"></div>
+
+      <br>
+
+      <label for="text">Any comments or suggestions?</label>
+      <br>
+      <textarea name="" id="text" cols="50" rows="10" placeholder="Enter your text here..."></textarea>
+      <div class="div-space"></div>
+
+      <br>
+
+      <button type="submit" id="submit">Submit!</button>
+
+    </form>
+
+    <script src="js/index.js"></script>
+  </div>
+</body>
+
+</html>
